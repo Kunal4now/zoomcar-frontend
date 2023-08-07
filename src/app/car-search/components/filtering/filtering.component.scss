@@ -1,0 +1,67 @@
+.filtering {
+    // width: 90rem;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    // align-content: flex-end;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-grid-list {
+    margin: 0;
+    padding: 0;
+}
+
+.card-item {
+    min-width: 300px;
+    margin-right: 16px;
+    cursor: grab;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 20rem;
+    height: 13rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+  
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // margin-top: 2rem;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

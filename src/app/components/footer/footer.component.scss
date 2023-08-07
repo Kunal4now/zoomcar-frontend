@@ -1,0 +1,32 @@
+// .footer {
+//     position: fixed;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     text-align: center;
+//   }
+  
+//   .footer-content {
+//     padding: 8px;
+//   }
+
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    margin-top: auto;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-content {
+    padding: 8px;
+  }
+  
+  

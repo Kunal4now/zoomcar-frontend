@@ -1,0 +1,15 @@
+<h1>Our Top Cars</h1>
+<div class="card-slider-container">
+    <mat-card *ngFor="let card of cardData" class="card-item" cdkDrag>
+        <mat-card-header>
+            <mat-card-title>{{card.model}}</mat-card-title>
+            <mat-card-subtitle>{{card.brand}}</mat-card-subtitle>
+        </mat-card-header>
+        <img  mat-card-image src="{{card.image}}" alt="">
+        <mat-card-content>
+            <p>{{card.price}}</p>
+            <p>{{card.year}}</p>
+        </mat-card-content>
+    </mat-card>
+  </div>
+  
