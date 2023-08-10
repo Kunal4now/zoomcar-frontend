@@ -1,7 +1,7 @@
 .hero-card {
   width: 90rem;
   height: 100vh;
-  margin-top: 3rem;
+  // margin-top: 3rem;
   display: flex;
   position: relative;
   align-items: center;
@@ -9,9 +9,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -2rem;
   // background: rgb(29,93,155);
   // background: linear-gradient(90deg, rgba(29,93,155,1) 41%, rgba(117,194,246,1) 100%);
-  background-image: url('../../../assets/hero-car-banner.jpg');
+  // background-image: url('../../../assets/hero-car-banner.jpg');
+  background-image: url('../../../assets/giphy.gif');
 }
 
 .hero-card::before {

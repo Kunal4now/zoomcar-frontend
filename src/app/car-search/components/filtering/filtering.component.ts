@@ -17,6 +17,7 @@ export class FilteringComponent {
 
   cardData: any[] = [
     {
+      id: 1,
       brand: 'Honda',
       model: 'Civic',
       type: 'Sedan',
@@ -26,6 +27,7 @@ export class FilteringComponent {
       image: 'https://imgur.com/2Gekr2z.jpg'
     },
     {
+      id: 2,
       brand: 'Toyota',
       model: 'Corolla',
       type: 'Sedan',
@@ -34,6 +36,7 @@ export class FilteringComponent {
       image: 'https://imgur.com/SebWhtk.jpg'
     },
     {
+      id: 3,
       brand: 'Nissan',
       model: 'Sentra',
       type: 'Sedan',
@@ -42,6 +45,7 @@ export class FilteringComponent {
       image: 'https://imgur.com/O6EkIYM.jpg'
     },
     {
+      id: 4,
       brand: 'Volkswagen',
       model: 'Jetta',
       type: 'Sedan',
@@ -50,6 +54,7 @@ export class FilteringComponent {
       image: 'https://imgur.com/egK4F3Z.jpg'
     },
     {
+      id: 5,
       brand: 'Nissan',
       model: 'Sentra',
       type: 'Sedan',
@@ -58,6 +63,7 @@ export class FilteringComponent {
       image: 'https://imgur.com/O6EkIYM.jpg'
     },
     {
+      id: 6,
       brand: 'Nissan',
       model: 'Sentra',
       type: 'Sedan',

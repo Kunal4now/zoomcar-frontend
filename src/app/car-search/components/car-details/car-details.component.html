@@ -1,0 +1,22 @@
+<div class="car-details-container">
+    <div class="car-card">
+        <h1>{{carDetails.model}}</h1>
+        <h2>{{carDetails.brand}}</h2>
+        <img src="{{carDetails.image}}" alt="">
+        <p>Rs.{{carDetails.price}}</p>
+        <p>{{carDetails.year}}</p>
+        <button mat-raised-button color="primary"><a href="/car/{{carDetails.id}}">Book Now</a></button>
+    </div>
+    <!-- <mat-card class="car-details">
+        <mat-card-header>
+            <mat-card-title>{{carDetails.model}}</mat-card-title>
+            <mat-card-subtitle>{{carDetails.brand}}</mat-card-subtitle>
+        </mat-card-header>
+        <img  mat-card-image src="{{carDetails.image}}" alt="">
+        <mat-card-content>
+            <p>Rs.{{carDetails.price}}</p>
+            <p>{{carDetails.year}}</p>
+            <button mat-raised-button color="primary"><a href="/car/{{carDetails.id}}">Book Now</a></button>
+        </mat-card-content>
+    </mat-card> -->
+</div>

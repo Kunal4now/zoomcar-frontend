@@ -1,4 +1,91 @@
 .hero-element {
-    border: 2px solid black;
+    // border: 2px solid black;
 
 }
+.achievement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+    height: 5rem;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // position: relative;
+}
+
+.slider-container {
+    margin-top: 3rem;
+
+}
+
+.achievement-container section {
+    text-align: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+// .achievement-container p {
+//     font-size: 1rem;
+//     margin: 0;
+// }
+
+// .achievement-container section:first-child {
+//     font-size: 3rem;
+// }
+
+.ad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+
+.ad-sub-1 {
+    display: flex;;
+}
+
+.ad-sub-1 img {
+    width: 40rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.ad-sub-2 img {
+    width: 40rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.ad-sub-2 {
+    display: flex;
+}
+
+.achievement-container section p:first-child {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold; /* For example, make the text bold */
+}
+
+.achievement-container section p:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: bold; /* For example, make the text bold */
+}
+// .achievement-container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .achievement-container section {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     width: 30%;
+//     height: 100%;
+//     border: 2px solid black;
+// }

@@ -1,4 +1,63 @@
-<mat-grid-list cols="1">
+<div class="container">
+    <div class="filtering-component">
+        <mat-card class="filtering">
+            <mat-card-title class="card-title" >Car Filters</mat-card-title>
+            <mat-card-content>
+                <form action="">
+                    <mat-form-field class="filter-field">
+                        <mat-label>Car Type</mat-label>
+                        <mat-select [(ngModel)]="selectedCarType" name="carType" >
+                            <mat-option *ngFor="let carType of carTypes" [value]="carType">
+                                {{ carType }}
+                              </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="filter-field">
+                        <mat-label>Car Brand</mat-label>
+                        <mat-select [(ngModel)]="selectedCarBrand" name="carBrand" >
+                            <mat-option *ngFor="let carBrand of carBrands" [value]="carBrand">
+                                {{ carBrand }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field class="filter-field">
+                        <mat-label>Car Model</mat-label>
+                        <mat-select [(ngModel)]="selectedCarModel" name="carModel">
+                          <mat-option *ngFor="let carModel of carModels" [value]="carModel">
+                            {{ carModel }}
+                          </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <div class="filter-actions">
+                        <button mat-raised-button color="primary" type="submit">Apply Filters</button>
+                        <button mat-raised-button color="warn" (click)="clearFilters()">Clear Filters</button>
+                    </div>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="car-list">
+        <mat-card class="car-list">
+            <mat-card-title class="card-title">Car List</mat-card-title>
+            <mat-card-content class="card-content">
+                <mat-card *ngFor="let card of cardData" class="card-item" cdkDrag>
+                    <mat-card-header>
+                        <mat-card-title>{{card.model}}</mat-card-title>
+                        <mat-card-subtitle>{{card.brand}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <img  mat-card-image src="{{card.image}}" alt="">
+                    <mat-card-content>
+                        <p>Rs. {{card.price}}</p>
+                        <p>{{card.year}}</p>
+                        <button mat-raised-button color="primary"><a href="/car/{{card.id}}" style="color: white; text-decoration: none;" >Book Now</a></button>
+                    </mat-card-content>
+                </mat-card>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+
+<!-- <mat-grid-list cols="1">
     <mat-grid-tile>
         <div class="whole-component">
             <mat-card class="filtering">
@@ -56,4 +115,4 @@
             </div>
         </div>
     </mat-grid-tile>
-</mat-grid-list>
+</mat-grid-list> -->

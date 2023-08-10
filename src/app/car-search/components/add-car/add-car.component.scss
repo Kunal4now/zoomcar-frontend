@@ -1,0 +1,22 @@
+mat-form-field {
+    display: block;
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-car-card {
+    // make the card a bit smaller
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
